@@ -34,8 +34,8 @@ module.exports = () => {
         description: 'Just Another Text Editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -50,7 +50,7 @@ module.exports = () => {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.m?js$/,
@@ -59,7 +59,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime']
             },
           },
         },
