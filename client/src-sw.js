@@ -26,12 +26,15 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-// TODO: Implement asset caching
+// Setting up asser cache
 registerRoute(
+
+  // Callback function and get the requests
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
   new StaleWhileRevalidate({
     cacheName: 'asset-cache',
     plugins: [
+      // Headers maximum-age of 30 days
       new CacheableResponsePlugin({
         statuses: [0, 200],
       }),
