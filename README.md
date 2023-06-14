@@ -2,7 +2,7 @@
 
 ## Link to Deployed Application
 
-[Click here to see the magic!]()
+[Click here to see the magic!](https://lit-depths-65164.herokuapp.com/)
 
 ## Description
 
@@ -68,7 +68,7 @@ These Node Package Manager are what is needed to run the application!
 
 ## Walkthrough Video
 
-![Demo]()
+![Demo](assets/Demo.gif)
 
 This video shows:
 
@@ -80,7 +80,7 @@ This video shows:
 
  - Application's IndexedDB storage
 
-Full Video Link: [Click Here]()
+Full Video Link: [Click Here](https://drive.google.com/file/d/1ALkDGfWexgAZRS7sB_rgLIeoRUESthLt/view)
 
 ## Credits
 
