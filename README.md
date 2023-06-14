@@ -68,6 +68,18 @@ These Node Package Manager are what is needed to run the application!
 
 ## Walkthrough Video
 
+![Demo]()
+
+This video shows:
+
+ - Demonstration of the application functionality
+
+ - Application's manifest.json file
+
+ - Application's registered
+
+ - Application's IndexedDB storage
+
 Full Video Link: [Click Here]()
 
 ## Credits
